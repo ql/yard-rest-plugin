@@ -1,5 +1,5 @@
 def init
-  sections :header, [T('docstring'), :method_details_list, [T('method_details')]]
+  sections :header,  :method_summary, [:item_summary], :method_details_list, [T('method_details')]
 end
 
 def method_details_list
